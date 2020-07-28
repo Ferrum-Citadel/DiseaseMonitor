@@ -1,5 +1,15 @@
 # DiseaseMonitor
+
 System Programming Project
+
+**For compilation : make**
+
+**To run:
+./diseaseMonitor -p patientRecordsFile –h1 diseaseHashtableNumOfEntries –h2 countryHashtableNumOfEntries –b bucketSize**
+
+The repo contains a patient record file named small.txt for testing
+  
+**To delete binaries and executable: make clean**
 
 Returns results from queries applies on a file with patient data in the form of: PatiendID firstName lastName disease country admission-date release-date
 Examples:
@@ -10,4 +20,4 @@ Examples:
 
 Schema of the data structures used:
 
-
+![alt text](Schema.png)
