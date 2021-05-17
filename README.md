@@ -1,5 +1,8 @@
 # DiseaseMonitor
 
+![GitHub top language](https://img.shields.io/github/languages/top/Ferrum-Citadel/DiseaseMonitor)
+![Lines of code](https://img.shields.io/tokei/lines/github/Ferrum-Citadel/DiseaseMonitor)
+
 System Programming Project
 
 **For compilation : make**
@@ -11,7 +14,7 @@ The repo contains a patient record file named small.txt for testing
   
 **To delete binaries and executable: make clean**
 
-Returns results from queries applies on a file with patient data in the form of: PatiendID firstName lastName disease country admission-date release-date
+Returns results from queries applied on a file with patient data in the form of: PatiendID firstName lastName disease country admission-date release-date
 Examples:
 
   889 Mary Smith COVID-2019 China 25-1-2019 27-1-2019
