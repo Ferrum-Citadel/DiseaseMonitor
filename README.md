@@ -3,16 +3,26 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Ferrum-Citadel/DiseaseMonitor)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Ferrum-Citadel/DiseaseMonitor)
 
-System Programming Project
+## For compilation:  
 
-**For compilation : make**
+```bash
+make
+```
 
-**To run:
+## To delete binaries and executable:  
+
+```bash
+make clean
+```
+
+To run:  
+
+```bash
 ./diseaseMonitor -p patientRecordsFile –h1 diseaseHashtableNumOfEntries –h2 countryHashtableNumOfEntries –b bucketSize**
-
+```
 The repo contains a patient record file named small.txt for testing
   
-**To delete binaries and executable: make clean**
+
 
 Returns results from queries applied on a file with patient data in the form of: PatiendID firstName lastName disease country admission-date release-date
 Examples:
